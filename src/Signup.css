@@ -1,0 +1,131 @@
+.container {
+    width: 850px;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(176, 56, 56, 0.2);
+  }
+  
+  .success-message {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #dff0d8;
+    border: 1px solid #3c763d;
+    color: #3c763d;
+    text-align: center;
+    font-weight: bold;
+  }
+  .container form {
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    width: 800px;
+    margin: 80px auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Times New Roman';
+    font-style: normal;
+  }
+  
+  .container p {
+    font-size: large;
+    text-align: center;
+  }
+  
+  .container hr {
+    margin: 10px 0;
+  }
+  
+  .container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container label {
+    margin-top: 10px;
+  }
+  
+  .container input {
+    font-size: large;
+padding-top: 10px;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: auto;
+  }
+  
+  .container input[type="checkbox"] {
+    display: inline;
+    width: auto;
+    margin-right: 5px;
+  }
+  
+  .container .clearfix {
+    
+    margin-top: 20px;
+  
+    align-items: center;
+    display: inline;
+    width: 750px;
+  }
+  
+  .container .cancelbtn,
+  .container .signupbtn {
+    background-color: #29335c;
+    color: #fff;
+    padding: 30px 30px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 45%;
+    word-spacing:normal;
+
+  }
+  
+  .container .cancelbtn {
+    background-color: #877f7f;
+
+  }
+  
+  .container .signupbtn:hover {
+    background-color: #5767aa;
+  }
+  
+  .container .signupbtn:active {
+    transform: scale(0.95);
+  }
+  
+  .container .signupbtn:focus,
+  .container .cancelbtn:focus {
+    
+    outline: none;
+  }
+  
+  .container a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #29335c;
+  }
+  
+  .container a:hover {
+    color: #5767aa;
+  }
+  
+  .container a:active {
+    transform: scale(0.95);
+  }
+  .clearfix{
+    padding: auto;
+    box-sizing: content-box;
+  }

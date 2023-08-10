@@ -1,0 +1,94 @@
+.container {
+    height: auto;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+ 
+  .login {
+    margin-top: 100px;
+    padding-top: 200px;
+    height: 600px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .login h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #29335c;
+    font-size: x-large;
+  }
+  
+  .form-group {
+    padding-bottom:auto;
+    font-size: large;
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #29335c;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .form-group input[type="checkbox"] {
+    display: inline;
+    width: auto;
+    margin-right: 5px;
+  }
+  
+  .btn {
+    background-color: #29335c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .btn + .btn {
+    margin-top: 10px;
+  }
+  
+  .btn:hover {
+    background-color: #5767aa;
+  }
+  
+  .btn:active {
+    transform: scale(0.95);
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  /* Center the "Back to Home" link */
+  a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #29335c;
+    margin-bottom: 20px;
+  }
+  
+  a:hover {
+    color: #5767aa;
+  }
+  h1{
+    font-size: x-large;
+  }

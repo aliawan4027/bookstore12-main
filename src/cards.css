@@ -1,0 +1,60 @@
+
+section{
+    width:80%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns:repeat(3, 2fr);
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    gap:30px;
+
+}
+
+.cards {
+    width: 100%;
+    border: 1px solid #050505; 
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(88, 76, 76, 0.1); 
+    transition: box-shadow 0.3s ease-in-out; 
+  }
+  
+  .cards:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+    cursor: pointer;
+  
+
+}
+.cards:hover{
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.1);
+    cursor:pointer;
+}
+.img_box img{
+    width:150px;
+    height: 200px;
+}.details p:nth-child(1){
+    font-weight: bold;
+
+}
+.details p:nth-child(2){
+    color:rgb(15, 13, 13);
+    font-size: 1rem;
+    font-family: cursive;
+}
+.details p:nth-child(3){
+    font-weight: bold;
+    color: rgb(91, 57, 57);
+}
+.details button{
+    padding: 5px 10px;
+    border:none;
+    font-weight: bold;
+    background-color: rgb(98, 104, 106);
+    outline: none;
+    border-radius: 2px;
+    width: 30%;
+    
+}
